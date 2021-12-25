@@ -2,17 +2,17 @@
     2  sudo su
     3  ed
     4  exit
-    5  sudo useradd jenkins -p 12345
+    5  sudo useradd leeroy -p 12345
     6  exit
     7  ip a
-    8  sudo usermod -G -a sudoers alexey
+    8  sudo usermod -G -a sudoers ivan
     9  exit
    10  sudo
    11  sudo apt
    12  sudo useradd jenkins -p 12345
    13  sudo su jenkins 
-   14  sudo usermod -G wheels jenkins
-   15  sudo usermod -G wheel jenkins
+   14  sudo usermod -G wheels leeroy
+   15  sudo usermod -G wheel leeroy
    16  exit
    17  clear
    18  whoami
@@ -135,4 +135,4 @@
   135  sudo less /var/log/messages
   136  less /var/log/messages
   137  sudo su
-  138  history > lab1_history.txt
+  138  history > lab1.txt
