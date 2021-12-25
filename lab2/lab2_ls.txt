@@ -1,0 +1,8 @@
+/home/ivan/testing/:
+total 0
+drw-rw-rw-. 2 ivan ivan 15 Nov  5 17:14 dir
+-rw-r-----. 1 root   ivan  0 Nov  5 17:44 file
+
+/home/ivan/testing/dir:
+total 0
+-????????? ? ? ? ?            ? new_file
